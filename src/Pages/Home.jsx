@@ -1,4 +1,4 @@
-import Hero from "../Components/Hero";
+import Hero from "../Components/hero items/Hero";
 import Sidebar from "../Components/Sidebar";
 const Home = () => {
   return (

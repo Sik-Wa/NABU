@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 const Sidebar = () => {
   return (
     <div className="flex flex-col w-1/3 p-3 m-1 shadow-black shadow-md rounded-md">
@@ -6,7 +8,7 @@ const Sidebar = () => {
         <div className="flex flex-row w-full mb-6 items-center justify-between">
           <div className="flex items-center gap-2 flex-row">
             <div className="bg-[#4934f5] text-white rounded-md flex">
-              <span className="p-2">NABU</span>
+              <span className="p-2"> <Link to='/'>NABU</Link></span>
             </div>
             {/* <div>
               <h1 className="font-bold">NABU</h1>
@@ -213,7 +215,7 @@ const Sidebar = () => {
           <div className="flex w-full p-1 rounded-md items-center flex-row">
             <div className="bg-[#afe9da] h-2 p-2 rounded-md border-green-600 border w-2]"></div>
             <span className="w-full bg-inherit text-gray-800 flex px-2 placeholder-gray-600">
-              Primary School
+             <Link to='/materials'> Primary School</Link>
             </span>
           </div>
         </div>
