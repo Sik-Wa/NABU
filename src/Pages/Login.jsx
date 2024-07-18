@@ -1,13 +1,14 @@
-import Hero from "../Components/hero items/Hero";
-import Sidebar from "../Components/Sidebar";
+ import  Log from '../Components/login-register stuff/Log'
+
+
 
 const Login = () => {
   return (
-    <div className="flex  px-4 md:px-8 py-4 w-full flex-row  ">
-    <Sidebar />
-    <Hero />
+    <div className=" text-white h-[100vh] flex justify-center items-center bg-gradient-to-r from-blue-300 to-blue-500 bg-cover ">
+  <Log/>
+   
   </div>
   )
 }
 
-export default Login
+export default Login 

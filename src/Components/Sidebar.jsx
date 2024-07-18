@@ -47,15 +47,7 @@ const Sidebar = () => {
               className="w-full focus:outline-none bg-inherit flex px-2 placeholder-gray-600"
             />
             <div className="md:flex hidden text-gray-600 items-center gap-1 bg-gray-200 rounded-md p-1">
-              <svg
-                fill="currentColor"
-                viewBox="0 0 16 16"
-                height="1.5em"
-                width="1.5em"
-              >
-                <path d="M3.5 2A1.5 1.5 0 015 3.5V5H3.5a1.5 1.5 0 110-3zM6 5V3.5A2.5 2.5 0 103.5 6H5v4H3.5A2.5 2.5 0 106 12.5V11h4v1.5a2.5 2.5 0 102.5-2.5H11V6h1.5A2.5 2.5 0 1010 3.5V5H6zm4 1v4H6V6h4zm1-1V3.5A1.5 1.5 0 1112.5 5H11zm0 6h1.5a1.5 1.5 0 11-1.5 1.5V11zm-6 0v1.5A1.5 1.5 0 113.5 11H5z" />
-              </svg>
-              <span>1</span>
+              
             </div>
           </div>
         </div>
@@ -75,15 +67,7 @@ const Sidebar = () => {
               Inbox 
             </span>
             <div className="md:flex hidden text-gray-600 items-center bg-gray-200 rounded-md p-1">
-              <svg
-                className="fill-gray-600"
-                viewBox="0 0 16 16"
-                height="1.5em"
-                width="1.5em"
-              >
-                <path d="M3.5 2A1.5 1.5 0 015 3.5V5H3.5a1.5 1.5 0 110-3zM6 5V3.5A2.5 2.5 0 103.5 6H5v4H3.5A2.5 2.5 0 106 12.5V11h4v1.5a2.5 2.5 0 102.5-2.5H11V6h1.5A2.5 2.5 0 1010 3.5V5H6zm4 1v4H6V6h4zm1-1V3.5A1.5 1.5 0 1112.5 5H11zm0 6h1.5a1.5 1.5 0 11-1.5 1.5V11zm-6 0v1.5A1.5 1.5 0 113.5 11H5z" />
-              </svg>
-              <span>2</span>
+            
             </div>
           </div>
         </div>
@@ -103,15 +87,7 @@ const Sidebar = () => {
               Activity
             </span>
             <div className="md:flex hidden text-gray-600 items-center bg-gray-200 rounded-md p-1">
-              <svg
-                fill="currentColor"
-                viewBox="0 0 16 16"
-                height="1.5em"
-                width="1.5em"
-              >
-                <path d="M3.5 2A1.5 1.5 0 015 3.5V5H3.5a1.5 1.5 0 110-3zM6 5V3.5A2.5 2.5 0 103.5 6H5v4H3.5A2.5 2.5 0 106 12.5V11h4v1.5a2.5 2.5 0 102.5-2.5H11V6h1.5A2.5 2.5 0 1010 3.5V5H6zm4 1v4H6V6h4zm1-1V3.5A1.5 1.5 0 1112.5 5H11zm0 6h1.5a1.5 1.5 0 11-1.5 1.5V11zm-6 0v1.5A1.5 1.5 0 113.5 11H5z" />
-              </svg>
-              <span>3</span>
+            
             </div>
           </div>
         </div>
@@ -132,15 +108,7 @@ const Sidebar = () => {
               Tuttors Available
             </span>
             <div className="md:flex hidden  text-gray-600 items-center bg-gray-200 rounded-md p-1">
-              <svg
-                fill="currentColor"
-                viewBox="0 0 16 16"
-                height="1.5em"
-                width="1.5em"
-              >
-                <path d="M3.5 2A1.5 1.5 0 015 3.5V5H3.5a1.5 1.5 0 110-3zM6 5V3.5A2.5 2.5 0 103.5 6H5v4H3.5A2.5 2.5 0 106 12.5V11h4v1.5a2.5 2.5 0 102.5-2.5H11V6h1.5A2.5 2.5 0 1010 3.5V5H6zm4 1v4H6V6h4zm1-1V3.5A1.5 1.5 0 1112.5 5H11zm0 6h1.5a1.5 1.5 0 11-1.5 1.5V11zm-6 0v1.5A1.5 1.5 0 113.5 11H5z" />
-              </svg>
-              <span>4</span>
+             
             </div>
           </div>
         </div>
