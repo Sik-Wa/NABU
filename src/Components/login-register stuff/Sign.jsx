@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 const Sign = () => {
@@ -70,10 +71,10 @@ const Sign = () => {
           <label htmlFor="Remember me">Remember Me</label>
         </div>
       </div>
-      <button
+      <Link to="/HomePage"
       className=" w-full mb-4 text-[18px] mt-6 rounded-full
        bg-white text-purple-950 hover:bg-slate-300 hover:text-fuchsia-950 py-2 transition-colors duration-500"
-      type="Submit">Submit</button>
+      type="Submit">Submit</Link>
       </form>
     </div>
   </div>

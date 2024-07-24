@@ -86,7 +86,7 @@ const Hero = () => {
         <Link to='/login'
          className=" rounded-[40px]  border border-white py-2 px-3 text-blue-500
          bg-white hover:bg-black text-lg font-medium  ">Login</Link>
-        <Link to='/signup'
+        <Link to='/HomePage'
          className=" rounded-[40px]  border border-gray-300 py-2 px-3 font-semibold bg-black
          text-white hover:text-blue-600 transition-colors
           duration-500 hover:bg-white ">Create  NABU Account</Link>

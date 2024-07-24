@@ -1,8 +1,13 @@
+import Heropage from "../Components/After Reg pages/Heropage"
+import Nav from "../Components/After Reg pages/Nav"
 
 
 const LandingPage = () => {
   return (
-    <div>LandingPage</div>
+    <div className="bg-black bg-cover " >
+      <Nav/>
+     <Heropage/>
+    </div>
   )
 }
 
