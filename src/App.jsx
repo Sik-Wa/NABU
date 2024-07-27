@@ -16,8 +16,8 @@ function App() {
         <Route path="/home" Component={Home} />
         <Route path="/materials" Component={Material} />
         <Route path="/login" Component={Login} />
-        <Route path="/signup" Component={SignUp} />
-        <Route path="/" Component={LandingPage} />
+        <Route path="/" Component={SignUp} />
+        <Route path="/landing" Component={LandingPage} />
         <Route path="/todo" Component={ToDos} />
       </Routes>
     </>

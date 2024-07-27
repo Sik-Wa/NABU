@@ -45,6 +45,15 @@ const Heropage = () => {
       </div>
       <h3  className="text-white  underline flex items-center justify-center mt-3 font-semibold">
       WHAT OUR CLIENTS SAY ABOUT US</h3>
+      <div>
+        <div  className=" grid grid-cols-2 gap-2   md:grid-cols-4 lg:grid-cols-4 
+       mt-0 w-full items-center justify-center ">
+  <div className=" h-60 col-span-1 rounded-[10px]  border md:col-span-1 lg:col-span-1"></div>
+          <div className=" h-60 col-span-1 rounded-[10px] border md:col-span-1 lg:col-span-1"></div>
+          <div className=" h-60 col-span-1 rounded-[10px] border md:col-span-1 lg:col-span-1"></div>
+          <div className=" h-60 col-span-1 rounded-[10px] border md:col-span-1 lg:col-span-1"></div>
+        </div>
+      </div>
     </div>
   );
 };
